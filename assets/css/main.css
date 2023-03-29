@@ -1,0 +1,127 @@
+/* MAIN CSS */
+
+:root {
+  --primary-color: #212e40;
+}
+
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--primary-color);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.top-bar .logo {
+  width: 200px;
+  height: auto;
+}
+
+.top-bar .launch {
+  font-size: 12px;
+}
+
+.top-bar .launch i {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* HEADER */
+.header {
+  position: relative;
+  background: #212631;
+  height: 80vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.header .container-video {
+  position: relative;
+  z-index: 2;
+}
+
+
+.header .container-video .btn-outline-primary {
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+#form-contact-header {
+  background-color: var(--primary-color);
+  padding: 20px 60px;
+}
+
+#form-contact-header .title {
+  font-size: 1.5rem;
+}
+
+#form-contact-header .title span {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.header .form-outline .form-control~.form-notch {
+  display: none;
+}
+
+.header .form-outline .form-control~.form-label,
+.header .form-outline .form-control {
+  color: #fff;
+  padding-left: 0;
+  left: 0;
+}
+
+.header .form-outline .form-control:focus~.form-label {
+  color: #ff4500;
+}
+
+.header .form-outline {
+  border-bottom: 1px solid #fff;
+}
+
+.header .form-select {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: #fff solid 1px;
+  border-radius: 0;
+  padding-left: 0;
+  margin-left: 10px;
+  width: 94%;
+}
+
+.header .form-select option {
+  color: #212631;
+  background-color: transparent;
+}
+
+#form-contact-header .txt-lgpd {
+  font-size: xx-small;
+  text-align: left;
+}
