@@ -1,13 +1,16 @@
 <template>
   <div class="wrapper">
+    <SoundBeep />
     <TopBar />
     <Header />
     <About />
     <Commercial />
+
   </div>
 </template>
 
 <script>
+import SoundBeep from '../components/SoundBeep.vue';
 import TopBar from '../components/TopBar.vue';
 import Header from '../components/Header.vue';
 import About from '../components/About.vue';
@@ -16,9 +19,11 @@ import Commercial from '../components/Commercial.vue';
 export default {
   name: "IndexPage",
   components: {
+    SoundBeep,
     TopBar,
     Header,
-    About
+    About,
+    Commercial,
   },
   head() {
     return {
@@ -38,6 +43,5 @@ export default {
       ],*/
     }
   }
-
 }
 </script>

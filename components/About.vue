@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          <img src="~/assets/images/about-polo-connect.jpg" class="img-about img-fluid" alt="About Polo Connect">
+          <img src="~/assets/images/about-polo-connect.jpg" data-aos="fade-right" class="img-about img-fluid" alt="About Polo Connect">
         </div>
         <div class="col-lg-7 mt-custom">
           <div class="row">
