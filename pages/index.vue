@@ -5,7 +5,6 @@
     <Header />
     <About />
     <Commercial />
-
   </div>
 </template>
 
