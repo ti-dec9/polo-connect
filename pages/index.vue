@@ -5,6 +5,7 @@
     <Header />
     <About />
     <Commercial />
+    <Gallery />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import TopBar from '../components/TopBar.vue';
 import Header from '../components/Header.vue';
 import About from '../components/About.vue';
 import Commercial from '../components/Commercial.vue';
+import Gallery from '../components/Gallery.vue';
 
 export default {
   name: "IndexPage",
@@ -23,6 +25,7 @@ export default {
     Header,
     About,
     Commercial,
+    Gallery,
   },
   head() {
     return {
