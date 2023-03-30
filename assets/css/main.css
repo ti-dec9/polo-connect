@@ -24,12 +24,44 @@
   background-color: #fff;
   border-radius: 10px;
 }
+/* PULSE DOT */
+.blob {
+  border-radius: 50%;
+  background: rgba(255, 82, 82, 1);
+  box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+  margin: 10px;
+  padding: 0px 8px;
+  transform: scale(1);
+}
+
+.blob.red {
+  background: rgba(255, 82, 82, 1);
+  box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+  animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+  }
+}
 
 /* HEADER */
 .header {
   position: relative;
   background: #212631;
-  height: 80vh;
+  height: 95vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -124,4 +156,27 @@
 #form-contact-header .txt-lgpd {
   font-size: xx-small;
   text-align: left;
+}
+
+#form-contact-header .btn-send {
+  background: #212631;
+  color: #fff;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+/* ABOUT */
+.about .img-about {
+  position: relative;
+  top: -100px;
+  z-index: 999;
+}
+
+.about .address {
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.about .mt-custom {
+  margin-top: 50px;
 }

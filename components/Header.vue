@@ -44,7 +44,10 @@
                     </div>
                   </div>
                   <div class="col mt-5 d-flex justify-content-center">
-                    <button type="submit" id="btn-submit" class="btn btn-default">Enviar</button>
+                    <button type="submit" id="btn-submit"
+                      class="btn btn-send animate__animated animate__pulse hvr-sweep-to-right">
+                      Me cadastrar
+                    </button>
                   </div>
                   <div class="col-lg-12 d-flex justify-content-center mt-5">
                     <div class="form-check">
@@ -66,14 +69,6 @@
                     </div>
                   </div>
                 </form>
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>

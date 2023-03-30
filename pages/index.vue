@@ -2,18 +2,23 @@
   <div class="wrapper">
     <TopBar />
     <Header />
+    <About />
+    <Commercial />
   </div>
 </template>
 
 <script>
 import TopBar from '../components/TopBar.vue';
 import Header from '../components/Header.vue';
+import About from '../components/About.vue';
+import Commercial from '../components/Commercial.vue';
 
 export default {
   name: "IndexPage",
   components: {
     TopBar,
-    Header
+    Header,
+    About
   },
   head() {
     return {

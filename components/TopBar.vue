@@ -10,7 +10,7 @@
           </p>
         </div>
         <div class="col-lg-6 my-5 d-flex align-self-center text-right">
-          <p class="launch text-uppercase"><font-awesome-icon :icon="['fas', 'circle']" /> Lançamento</p>
+          <p class="launch text-uppercase"><span class="blob red"></span> Lançamento</p>
         </div>
       </div>
     </div>
