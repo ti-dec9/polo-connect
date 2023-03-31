@@ -4,10 +4,10 @@
       <div class="row">
         <div class="col-lg-6">
           <h2>Tem interesse?</h2>
-          <p class="text-uppercase">Sua experiência começa aqui.</p>
+          <p class="text-uppercase fw-bold">Sua experiência começa aqui.</p>
           <p>Preencha o formulário ou escolha uma das opções de contato abaixo para falar conosco:</p>
           <div class="row mt-lg-5">
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex align-items-end">
               <div class="wrapper-icons">
                 <div class="icon text-center">
                   <a href="#"><font-awesome-icon :icon="['fas', 'mobile-retro']" /></a>
@@ -15,7 +15,7 @@
                 <p>Ligamos pra você</p>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex align-items-end">
               <div class="wrapper-icons">
                 <div class="icon text-center">
                   <a href="#"><font-awesome-icon :icon="['fab', 'whatsapp']" /></a>
@@ -23,12 +23,12 @@
                 <p>Fale por Whatsapp</p>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex align-items-end">
               <div class="wrapper-icons">
                 <div class="icon text-center">
                   <a href="#"><font-awesome-icon :icon="['fas', 'headset']" /></a>
                 </div>
-                <p>Fale com um consultor (24) 00000-0000</p>
+                <p>Fale com um consultor</p>
               </div>
             </div>
           </div>
@@ -44,8 +44,8 @@
             </div>
             <div class="col-12 mt-5 mt-md-input">
               <div class="form-outline">
-                <input type="text" name="lastname" id="sobrenome" class="form-control" required />
-                <label class="form-label" for="nome">Sobrenome</label>
+                <input type="text" name="phone" id="telefone" class="form-control" required />
+                <label class="form-label" for="telefone">Telefone</label>
               </div>
             </div>
             <div class="col-12 mt-5">

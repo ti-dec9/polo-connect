@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-9">
           <div class="row">
-            <div class="col-lg-6 bg-orange">
+            <div class="col-lg-6 bg-blue">
               <address class="address text-uppercase">
                 <font-awesome-icon :icon="['fas', 'location-dot']" />
                 Rua Pedro Maria Net, 45 - Aterrado - Volta Redonda / RJ

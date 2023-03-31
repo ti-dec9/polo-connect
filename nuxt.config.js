@@ -42,6 +42,7 @@ export default {
     '~/assets/css/main.css',
     '~/assets/css/animations.css',
     '~/assets/css/hover-min.css',
+    '~/assets/css/custom.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

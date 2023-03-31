@@ -14,6 +14,10 @@
   background-color: var(--color-orange);
 }
 
+.bg-blue {
+  background-color: var(--color-blue);
+}
+
 .bg-grayscale-dark {
   background-color: var(--color-grayscale-dark);
 }
@@ -45,7 +49,7 @@
   height: 60px;
   border-radius: 50%;
   text-align: center;
-  line-height: 58px;
+  line-height: 65px;
   vertical-align: middle;
   margin: 0 auto;
 }
@@ -68,6 +72,17 @@
   border-radius: 0;
   padding: 40px;
   font-size: 0.9rem;
+}
+
+.btn-link {
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  background: none;
+  color: var(--color-blue-light);
+  transition: all .3s;
 }
 
 /* ANIMATION INIT */
@@ -93,9 +108,9 @@
 
 
 .arrow {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  top: -15px;
+  /* left: 50%; */
   transform: translate(-50%, -50%);
   transform: rotate(-90deg);
   cursor: pointer;
@@ -103,10 +118,10 @@
 
 .arrow span {
   display: block;
-  width: 80px;
-  height: 30px;
-  border-bottom: 5px solid white;
-  border-right: 5px solid white;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid var(--color-blue-light);
+  border-right: 5px solid var(--color-blue-light);
   transform: rotate(45deg);
   margin: -10px;
   animation: arrow 2s infinite;
@@ -362,7 +377,7 @@ svg {
 /* LOCALIZATION */
 
 .localization {
-  padding: 20px 80px;
+  padding: 20px 40px 120px;
 }
 
 .localization .title {
@@ -387,16 +402,32 @@ svg {
   background-image: linear-gradient(to bottom, rgba(48, 48, 48, 0.5), rgba(27, 27, 27, 0.5)), url('https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/agite-as-maos-para-o-sucesso.jpg?updatedAt=1680293218872');
   background-size: cover;
   padding: 120px 40px;
+}
 
+.interest h2 {
+  font-size: 2.5rem;
+  background: linear-gradient(#b5d4e8, #5a718d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#b5d4e8, #5a718d);
+  background: -moz-linear-gradient(#b5d4e8, #5a718d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
 }
 
 #form-request-quote {
   background: linear-gradient(#3c3b49, #3c3b49) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
     linear-gradient(0deg, transparent 0%, #666772 100%);
+  background: -webkit-linear-gradient(#3c3b49, #3c3b49) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+  -webkit-linear-gradient(0deg, transparent 0%, #666772 100%);
+  background: -moz-linear-gradient(#3c3b49, #3c3b49) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+  -moz-linear-gradient(0deg, transparent 0%, #666772 100%);
   border-radius: 0px;
   padding: 8px;
   box-sizing: border-box;
   padding: 40px;
+  backdrop-filter: blur(2px);
 }
 
 /* RESPONSIVE */
