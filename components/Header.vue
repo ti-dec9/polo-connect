@@ -45,7 +45,7 @@
                   </div>
                   <div class="col mt-5 d-flex justify-content-center">
                     <button type="submit" id="btn-submit"
-                      class="btn btn-send animate__animated animate__pulse hvr-sweep-to-right">
+                      class="btn btn-send pulsate-fwd hvr-sweep-to-right">
                       Me cadastrar
                     </button>
                   </div>

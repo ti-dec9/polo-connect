@@ -1,14 +1,17 @@
 /* MAIN CSS */
 
 :root {
-  --primary-color: #212e40;
+  --color-blue-dark: #212e40;
+  --color-orange: #ff4500;
+  --color-white: #fff;
+  --color-grayscale: #7a818c;
 }
 
 .wrapper {
   font-family: 'Open Sans', sans-serif;
-  background: var(--primary-color);
+  background: var(--color-blue-dark);
   min-height: 100vh;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .top-bar .logo {
@@ -21,7 +24,7 @@
 }
 
 .top-bar .launch i {
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 10px;
 }
 
@@ -41,11 +44,16 @@
   animation: pulse-red 2s infinite;
 }
 
+.pulsate-fwd {
+  -webkit-animation: pulsate-fwd 8s ease-in-out infinite both;
+  animation: pulsate-fwd 8s ease-in-out infinite both;
+}
+
 
 /* HEADER */
 .header {
   position: relative;
-  background: #212631;
+  background: var(--color-blue-dark);
   height: 95vh;
   min-height: 25rem;
   width: 100%;
@@ -74,8 +82,8 @@
 
 
 .header .container-video .btn-outline-primary {
-  border: solid 1px #fff;
-  color: #fff;
+  border: solid 1px var(--color-white);
+  color: var(--color-white);
 }
 
 .header .overlay {
@@ -90,7 +98,7 @@
 }
 
 #form-contact-header {
-  background-color: var(--primary-color);
+  background-color: var(--color-blue-dark);
   padding: 20px 60px;
 }
 
@@ -109,24 +117,24 @@
 
 .header .form-outline .form-control~.form-label,
 .header .form-outline .form-control {
-  color: #fff;
+  color: var(--color-white);
   padding-left: 0;
   left: 0;
 }
 
 .header .form-outline .form-control:focus~.form-label {
-  color: #ff4500;
+  color: var(--color-orange);
 }
 
 .header .form-outline {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--color-white);
 }
 
 .header .form-select {
   background-color: transparent;
-  color: #fff;
+  color: var(--color-white);
   border: none;
-  border-bottom: #fff solid 1px;
+  border-bottom: var(--color-white) solid 1px;
   border-radius: 0;
   padding-left: 0;
   margin-left: 10px;
@@ -145,7 +153,7 @@
 
 #form-contact-header .btn-send {
   background: #212631;
-  color: #fff;
+  color: var(--color-white);
   animation: pulse;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
@@ -172,7 +180,7 @@
   content: 'Comercial';
   font-family: 'Permanent Marker', cursive;
   font-size: 7rem;
-  color: var(#fff);
+  color: var(var(--color-white));
   opacity: 0.03;
   font-weight: bolder;
   text-transform: uppercase;
@@ -183,4 +191,129 @@
 .commercial .video {
   width: 100%;
   height: 350px;
+}
+
+
+/* EXPERIENCE */
+
+.experience {
+  padding: 120px 60px;
+}
+
+.card {
+  background: transparent;
+  border: #413d49 solid 1px;
+  border-radius: 0;
+  padding: 40px;
+  font-size: 0.9rem;
+}
+
+.card-experience .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+
+/* GALLERY */
+
+.gallery {
+  padding: 60px 60px;
+}
+
+
+.gallery .pills-primary .nav-item .nav-link.active  {
+  color: var(--color-white) !important;
+}
+
+.gallery .nav-pills .nav-link {
+  color: var(--color-grayscale);
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+  height: 28px;
+}
+
+.gallery .nav-pills .nav-link.active {
+  border-bottom: var(--color-orange) solid 3px;
+  border-radius: 0px;
+}
+
+.gallery .nav-pills .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2.5px;
+  margin-top: 20px;
+  background: var(--color-orange);
+  transition: width .3s;
+  position: relative;
+  top: -10.5px;
+}
+
+.gallery .nav-pills .nav-link:hover::after {
+  width: 100%;
+  /*transition: width .3s;*/
+}
+
+/* POLO CONNECT */
+.polo-connect {
+  padding: 80px 60px;
+}
+
+.polo-connect h2 {
+  font-weight: bold;
+}
+
+.polo-connect h2 span {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* DIFERENTIALS */
+
+.diferentials {
+  padding: 80px 60px;
+}
+
+.diferentials h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.diferentials h2 span {
+  font-weight: 200;
+  text-transform: initial;
+}
+
+.card-diferentials {
+
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px) {
+  .about .img-about {
+    position: relative;
+    top: initial;
+    margin-top: 120px;
+  }
+
+  .about .mt-custom {
+    margin-top: 20px;
+  }
+
+  .stroke::before {
+    font-size: 3rem;
+  }
+
+  .experience {
+    margin: 120px initial;
+  }
+
+  .card-experience {
+    padding: 20px;
+  }
 }

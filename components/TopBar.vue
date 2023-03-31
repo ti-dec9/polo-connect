@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="top-bar">
+  <section class="top-bar">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mt-4 mb-3">
@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

@@ -5,7 +5,10 @@
     <Header />
     <About />
     <Commercial />
+    <Experience />
     <Gallery />
+    <Poloconnect />
+    <Diferentials />
   </div>
 </template>
 
@@ -15,7 +18,10 @@ import TopBar from '../components/TopBar.vue';
 import Header from '../components/Header.vue';
 import About from '../components/About.vue';
 import Commercial from '../components/Commercial.vue';
+import Experience from '../components/Experience.vue';
 import Gallery from '../components/Gallery.vue';
+import Poloconnect from '../components/Poloconnect.vue';
+import Diferentials from '../components/Diferentials.vue';
 
 export default {
   name: "IndexPage",
@@ -25,7 +31,10 @@ export default {
     Header,
     About,
     Commercial,
+    Experience,
     Gallery,
+    Poloconnect,
+    Diferentials
   },
   head() {
     return {

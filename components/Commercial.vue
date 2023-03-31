@@ -1,5 +1,5 @@
 <template>
-  <div class="commercial">
+  <section class="commercial">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-12">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

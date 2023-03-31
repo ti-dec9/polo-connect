@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <section class="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -7,15 +7,15 @@
         </div>
         <div class="col-lg-7 mt-custom">
           <div class="row">
-            <div class="col-lg-8 mt-5">
+            <div class="col-lg-8 mt-lg-5">
               <p><h4>O empreendimento pensado desde o início em <strong>conectividade</strong></h4></p>
             </div>
-            <div class="col-lg-8 mt-5">
+            <div class="col-lg-8 mt-lg-5">
               <p>Além de toda infraestrutura, o prédio contará com
             facilidades tecnológicas que irão axiliar e trazer
             mais segurança ao dia a dia dos moradores.</p>
             </div>
-            <div class="col-lg-12 mt-5">
+            <div class="col-lg-12 mt-lg-5">
               <address class="address text-uppercase">
                 <font-awesome-icon :icon="['fas', 'location-dot']" />
                 Rua Pedro Maria Net, 45 - Aterrado - Volta Redonda / RJ
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
