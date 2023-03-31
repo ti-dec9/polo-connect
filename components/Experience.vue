@@ -3,12 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          <img src="~/assets/images/fachada-perspectiva-polo-connect.jpg" class="img-fluid pulsate-fwd" alt="Fachada Polo Connect">
+          <img src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/fachada-perspectiva-polo-connect.jpg?updatedAt=1680293218123" class="img-fluid pulsate-fwd" alt="Fachada Polo Connect">
         </div>
         <div class="col-lg-7 mt-5 d-flex align-self-center">
           <div class="row">
             <div class="col-lg-7">
-              <img src="~/assets/images/logo-polo-connect-base-white.png" class="img-fluid" alt="Polo Connect">
+              <img src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/logo-polo-connect-base-white.png?updatedAt=1680293216898" class="img-fluid" alt="Polo Connect">
             </div>
             <div class="col-lg-5 mt-lg-4">
               <h4 class="text-uppercase fw-bold">Diferente hoje, essencial amanhã</h4>

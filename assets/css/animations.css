@@ -60,3 +60,17 @@
     box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
   }
 }
+
+@keyframes arrow {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
+}

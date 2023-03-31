@@ -5,6 +5,17 @@
   --color-orange: #ff4500;
   --color-white: #fff;
   --color-grayscale: #7a818c;
+  --color-grayscale-dark: #46404a;
+  --color-blue-light: #b5d4e8;
+  --color-blue: #5a718d;
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.bg-grayscale-dark {
+  background-color: var(--color-grayscale-dark);
 }
 
 .wrapper {
@@ -28,7 +39,38 @@
   border-radius: 10px;
 }
 
-/* PULSE DOT */
+.wrapper-icons .icon {
+  background: var(--color-grayscale-dark);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 65px;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.wrapper-icons p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.icon a svg {
+  color: var(--color-white);
+  width: auto;
+  height: 20px;
+}
+
+.card {
+  background: transparent;
+  border: #413d49 solid 1px;
+  border-radius: 0;
+  padding: 40px;
+  font-size: 0.9rem;
+}
+
+/* ANIMATION INIT */
 .blob {
   border-radius: 50%;
   background: rgba(255, 82, 82, 1);
@@ -47,6 +89,35 @@
 .pulsate-fwd {
   -webkit-animation: pulsate-fwd 8s ease-in-out infinite both;
   animation: pulsate-fwd 8s ease-in-out infinite both;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 80px;
+  height: 30px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: arrow 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
 }
 
 
@@ -80,7 +151,6 @@
   z-index: 2;
 }
 
-
 .header .container-video .btn-outline-primary {
   border: solid 1px var(--color-white);
   color: var(--color-white);
@@ -111,26 +181,27 @@
   font-weight: bold;
 }
 
-.header .form-outline .form-control~.form-notch {
+/* DEFAULT CUSTOMIZATION FORM */
+.form-custom .form-outline .form-control~.form-notch {
   display: none;
 }
 
-.header .form-outline .form-control~.form-label,
-.header .form-outline .form-control {
+.form-custom .form-outline .form-control~.form-label,
+.form-custom .form-outline .form-control {
   color: var(--color-white);
   padding-left: 0;
   left: 0;
 }
 
-.header .form-outline .form-control:focus~.form-label {
+.form-custom .form-outline .form-control:focus~.form-label {
   color: var(--color-orange);
 }
 
-.header .form-outline {
+.form-custom .form-outline {
   border-bottom: 1px solid var(--color-white);
 }
 
-.header .form-select {
+.form-custom .form-select {
   background-color: transparent;
   color: var(--color-white);
   border: none;
@@ -141,23 +212,31 @@
   width: 94%;
 }
 
-.header .form-select option {
+.form-custom .form-select option {
   color: #212631;
   background-color: transparent;
 }
 
-#form-contact-header .txt-lgpd {
+.form-custom .txt-lgpd {
   font-size: xx-small;
   text-align: left;
 }
 
-#form-contact-header .btn-send {
+.form-custom .btn-send {
   background: #212631;
   color: var(--color-white);
   animation: pulse;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
   /* don't forget to set a duration! */
+}
+
+/* ------------------------------ */
+
+
+svg {
+  width: auto;
+  height: 15px;
 }
 
 /* ABOUT */
@@ -200,14 +279,6 @@
   padding: 120px 60px;
 }
 
-.card {
-  background: transparent;
-  border: #413d49 solid 1px;
-  border-radius: 0;
-  padding: 40px;
-  font-size: 0.9rem;
-}
-
 .card-experience .card-title {
   font-size: 1.5rem;
   margin-bottom: 50px;
@@ -221,7 +292,7 @@
 }
 
 
-.gallery .pills-primary .nav-item .nav-link.active  {
+.gallery .pills-primary .nav-item .nav-link.active {
   color: var(--color-white) !important;
 }
 
@@ -287,10 +358,46 @@
   text-transform: initial;
 }
 
-.card-diferentials {
+
+/* LOCALIZATION */
+
+.localization {
+  padding: 20px 80px;
+}
+
+.localization .title {
+  font-size: 2rem;
+}
+
+.localization .address {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 30px 20px;
+  margin-bottom: 0;
+}
+
+#form-route-address {
+  padding: 20px 20px;
+}
+
+
+/* INTEREST */
+
+.interest {
+  background-image: linear-gradient(to bottom, rgba(48, 48, 48, 0.5), rgba(27, 27, 27, 0.5)), url('https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/agite-as-maos-para-o-sucesso.jpg?updatedAt=1680293218872');
+  background-size: cover;
+  padding: 120px 40px;
 
 }
 
+#form-request-quote {
+  background: linear-gradient(#3c3b49, #3c3b49) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+    linear-gradient(0deg, transparent 0%, #666772 100%);
+  border-radius: 0px;
+  padding: 8px;
+  box-sizing: border-box;
+  padding: 40px;
+}
 
 /* RESPONSIVE */
 

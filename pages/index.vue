@@ -9,6 +9,8 @@
     <Gallery />
     <Poloconnect />
     <Diferentials />
+    <Localization />
+    <Interest />
   </div>
 </template>
 
@@ -22,6 +24,8 @@ import Experience from '../components/Experience.vue';
 import Gallery from '../components/Gallery.vue';
 import Poloconnect from '../components/Poloconnect.vue';
 import Diferentials from '../components/Diferentials.vue';
+import Localization from '../components/Localization.vue';
+import Interest from '../components/Interest.vue';
 
 export default {
   name: "IndexPage",
@@ -34,7 +38,9 @@ export default {
     Experience,
     Gallery,
     Poloconnect,
-    Diferentials
+    Diferentials,
+    Localization,
+    Interest
   },
   head() {
     return {

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mt-4 mb-3">
-          <img src="~/assets/images/logo-polo-connect-base-white.png" class="logo" />
+          <img src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/logo-polo-connect-base-white.png?updatedAt=1680293216898" class="logo" />
           <p>
           <h1 class="fs-5 fw-normal">Futuro é estar conectado ao que te faz bem!</h1>
           </p>

@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col-md-12 p-t-50">
               <div class="text-center text-uppercase">
-                <form class="row gy-2 gx-3 align-items-center d-flex justify-content-center" id="form-contact-header">
+                <form class="row gy-2 gx-3 align-items-center d-flex justify-content-center form-custom" id="form-contact-header">
                   <div class="col-lg-12">
                     <h5 class="text-center title text-white text-uppercase">
                       Preencha e Receba <span>informações privilegiadas sobre este empreendimento</span>
