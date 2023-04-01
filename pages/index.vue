@@ -11,6 +11,7 @@
     <Diferentials />
     <Localization />
     <Interest />
+    <Footer />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import Poloconnect from '../components/Poloconnect.vue';
 import Diferentials from '../components/Diferentials.vue';
 import Localization from '../components/Localization.vue';
 import Interest from '../components/Interest.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   name: "IndexPage",
@@ -40,7 +42,8 @@ export default {
     Poloconnect,
     Diferentials,
     Localization,
-    Interest
+    Interest,
+    Footer
   },
   head() {
     return {

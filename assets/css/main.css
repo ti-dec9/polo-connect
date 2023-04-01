@@ -209,7 +209,7 @@
 }
 
 .form-custom .form-outline .form-control:focus~.form-label {
-  color: var(--color-orange);
+  color: var(--color-blue-light);
 }
 
 .form-custom .form-outline {
@@ -428,6 +428,56 @@ svg {
   box-sizing: border-box;
   padding: 40px;
   backdrop-filter: blur(2px);
+}
+
+
+/* FOOTER */
+
+.footer {
+  padding: 80px 40px 20px;
+}
+
+.footer .card {
+  padding: 15px;
+}
+
+.footer .card-title {
+  font-size: 1rem;
+}
+
+.footer .social-icon-list {
+  letter-spacing: 0.8rem;
+}
+
+.footer .social-icon-list a svg {
+  color: var(--color-white);
+  width: 20px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.footer .social-icon-list a:hover svg {
+  color: var(--color-blue);
+  transition: .3s;
+}
+
+.footer .number-phone span {
+  font-size: 1rem;
+}
+
+.footer .number-phone {
+  font-size: 2rem;
+}
+
+.footer .text-phone {
+  font-size: 0.8rem;
+  color: var(--color-blue);
+  line-height: 0px;
+}
+
+.footer .copy p {
+  color: var(--color-blue);
+  font-size: 0.8rem;
 }
 
 /* RESPONSIVE */
