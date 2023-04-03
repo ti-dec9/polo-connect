@@ -49,7 +49,7 @@
         </div>
         <div class="col-lg-3 g-0">
           <div class="card shadow-none h-100">
-            <img src="" class="card-img-top" alt="">
+            <img src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/icons/soundproof.svg?updatedAt=1680557928144" style="width: 80px; height: auto; margin: 0 auto;" class="card-img-top" alt="">
             <div class="card-body">
               <p>Isolamento acústico entre os pavimentos</p>
             </div>
@@ -57,20 +57,13 @@
         </div>
         <div class="col-lg-3 g-0">
           <div class="card shadow-none card-diferentials h-100">
-            <img src="" class="card-img-top" alt="">
+            <img src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/icons/solar-panel.svg?updatedAt=1680557927958" style="width: 80px; height: auto; margin: 0 auto;" class="card-img-top" alt="">
             <div class="card-body">
               <p>Energia fotovoltaica nas áreas compartilhadas</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 g-0">
-          <div class="card shadow-none card-diferentials h-100">
-            <img src="" class="card-img-top" alt="">
-            <div class="card-body">
-              <p>MarketPlace no hall</p>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>

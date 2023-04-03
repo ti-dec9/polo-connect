@@ -7,7 +7,23 @@
       <source src="https://simonsautobody.com/assets/public/video/video-sab.webm" type="video/webm">
       Your browser doesn't support HTML5 video tag.
     </video>
-    <div class="container container-video h-100">
+
+    <div class="container container-video">
+      <div class="row">
+        <div class="col-lg-6 mt-4 mb-3">
+          <img
+            src="https://ik.imagekit.io/8z4sc6x4w/Dec9/Construtora_Polo/logo-polo-connect-base-white.png?updatedAt=1680293216898"
+            class="logo" />
+          <!-- <p>
+          <h1 class="fs-5 fw-normal">Futuro é estar conectado ao que te faz bem!</h1>
+          </p> -->
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- <div class="container container-video h-100">
       <div class="d-flex text-left h-100">
         <div class="my-auto w-100 text-white">
           <div class="row">
@@ -74,7 +90,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </header>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div class="wrapper">
     <SoundBeep />
-    <TopBar />
+    <!-- <TopBar /> -->
     <Header />
     <About />
     <Commercial />
     <Experience />
     <Gallery />
-    <Poloconnect />
+    <!-- <Poloconnect /> -->
     <Diferentials />
     <Localization />
     <Interest />
@@ -17,13 +17,13 @@
 
 <script>
 import SoundBeep from '../components/SoundBeep.vue';
-import TopBar from '../components/TopBar.vue';
+/* import TopBar from '../components/TopBar.vue'; */
 import Header from '../components/Header.vue';
 import About from '../components/About.vue';
 import Commercial from '../components/Commercial.vue';
 import Experience from '../components/Experience.vue';
 import Gallery from '../components/Gallery.vue';
-import Poloconnect from '../components/Poloconnect.vue';
+/* import Poloconnect from '../components/Poloconnect.vue'; */
 import Diferentials from '../components/Diferentials.vue';
 import Localization from '../components/Localization.vue';
 import Interest from '../components/Interest.vue';
@@ -33,13 +33,13 @@ export default {
   name: "IndexPage",
   components: {
     SoundBeep,
-    TopBar,
+    /* TopBar, */
     Header,
     About,
     Commercial,
     Experience,
     Gallery,
-    Poloconnect,
+    /* Poloconnect, */
     Diferentials,
     Localization,
     Interest,
