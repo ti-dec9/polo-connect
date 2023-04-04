@@ -1,0 +1,26 @@
+/* FONTS */
+
+@font-face {
+    font-family: "ProximaNova Bold";
+    src: url("proximanova-bold.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova Light";
+    src: url("proximanovacond-light.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova Medium";
+    src: url("proximanovacond-medium.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova Regular";
+    src: url("proximanovacond-regular.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova Thin";
+    src: url("proximanovacond-thin.otf");
+}

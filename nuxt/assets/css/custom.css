@@ -1,0 +1,19 @@
+/* CUSTOM */
+
+:root {
+  --color-blue-dark: #212e40;
+  --color-orange: #ff4500;
+  --color-white: #fff;
+  --color-grayscale: #7a818c;
+  --color-grayscale-dark: #46404a;
+  --color-blue-light: #b5d4e8;
+  --color-blue: #5a718d;
+}
+
+/* ======================
+* CUSTOMIZATION HOVER CSS
+====================== */
+
+.hvr-sweep-to-right:before {
+  background: var(--color-blue);
+}
